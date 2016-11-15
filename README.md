@@ -7,8 +7,8 @@ For quick testing try making a tiny dev server (it's easy I promise) by followin
 plug it into the "api" variable in the common/service.js file.
 
 ### Run it
-If you have Node and NPM installed, simply 'git clone https://github.com/rogersgt/ng-quickStart',
-'cd /location/of/ng-quickStart', 'npm install', and then 'npm start'.
+If you have Node and NPM installed, simply `git clone https://github.com/rogersgt/ng-quickStart`,
+`cd /location/of/ng-quickStart`, `npm install`, and then `npm start`.
 
 ##### What happens
 The start command will begin serving the client off of Port 3000 as well as using node-sass to compile the CSS into the style-min.css.
