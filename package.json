@@ -1,0 +1,32 @@
+{
+  "name": "ng-quickstart",
+  "version": "1.0.0",
+  "description": "boiler plate for simple angular app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass styles/master.scss styles/style-min.css -w & serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogersgt/ng-quickStart.git"
+  },
+  "keywords": [
+    "angular",
+    "ng-quickStart",
+    "template"
+  ],
+  "author": "Grady Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogersgt/ng-quickStart/issues"
+  },
+  "homepage": "https://github.com/rogersgt/ng-quickStart#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.2"
+  },
+  "devDependencies": {
+    "node-sass": "^3.12.5"
+  }
+}

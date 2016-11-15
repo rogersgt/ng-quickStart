@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ng-quickStart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/styles/style-min.css" media="screen" title="no title">
+  </head>
+  <body ng-app="app">
+
+    <h1>Ng-quickStart</h1>
+    <!-- Add as many ui-views as you like -->
+    <!-- <ui-view name="header"></ui-view> -->
+    <ui-view name="chewy"></ui-view>
+
+    <!-- NPM dependencies -->
+  <script src="node_modules/angular/angular.js" charset="utf-8"></script>
+  <script src="node_modules/angular-ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+
+        <!-- Add custom modules here -->
+  <script src="common/module.js" charset="utf-8"></script>
+  <script src="common/service.js" charset="utf-8"></script>
+  <script src="common/controller.js" charset="utf-8"></script>
+
+  </body>
+</html>
