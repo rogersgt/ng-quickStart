@@ -5,7 +5,7 @@
   .factory('CommonService', function($http) {
 
     var collection = 'storage';
-    var api = 'http://sky-net.herokuapp.com/collections/' + collection;
+    var api = 'http://api-name/' + collection;
 
     var getIt = function () {
       return $http.get(api);

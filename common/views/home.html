@@ -6,5 +6,5 @@
 </div>
 
 <ul class="itemList">
-  <li ng-repeat="item in ctrl.items">{{item.title}} <i ng-click="ctrl.delete(item)" class="fa fa-trash" aria-hidden="true"></i></li>
+  <li ng-repeat="item in ctrl.items"><span ng-dblclick="ctrl.edit=true; ctrl.itemToEdit=item">{{item.title}}</span> <i ng-click="ctrl.delete(item)" class="fa fa-trash" aria-hidden="true"></i></li>
 </ul>
